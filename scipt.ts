@@ -90,3 +90,37 @@ const lunch: string[] = ['roti', 'sbji'];
 
 
 
+
+
+let a: any = -2;
+a = parseInt(a);
+a = +a; /// shortcut method of making suree that we have a number only.
+
+let b: any = 2;
+b = b.toString();
+b = b + '';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
