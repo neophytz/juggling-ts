@@ -3,11 +3,9 @@
 //     constructor(){
 //         this.name = 'bina naam ka bacha';
 //     }
-
 //     cry = () => {
 //         console.log(this.name, 'oaaaawwwww');
 //     }
-
 // }
 
 // const roy = new Child();
@@ -20,7 +18,6 @@
 // advantages => abstraction, inheritance, encapsulation, polymorphism
 
 class Student {
-
     // attributes
     public name: string;
     public age: number;

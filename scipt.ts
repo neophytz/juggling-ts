@@ -1,27 +1,45 @@
+// primitive
+// non-primitive
+
 /*
+  
   int 
-  boolan
+  boolean
   string
+  null
+  undefined
+
   unknown 
   any
-  undefined
 */
 
-const another: string = 'string'; 
+const another: string = '12'; 
 
 const age: number = 12;
+// age  = 15;
+
+const roy_single_h: boolean = true;
 
 let something: string = 'pra nai kta';
 something = 'ab pta chal gya';
 
-type Bloodgroup = 'A' | 'B' | 'AB' | 'O';
-let bloodGroup: Bloodgroup = 'A';
+type BloodGroup = 'A' | 'B' | 'AB' | 'O'; // union
+let bloodGroup: BloodGroup = 'A';
 
 // array?
 const marks: Array<number> = [];
 const votes: number[] = [];
 
 type NumOrString = number | string;
+
+const address = {
+  line: 'sachin',
+  pincode: 110032,
+  line2: 'duhan',
+  landmark: {
+    line1: ''
+  }
+}
 
 const meaning: typeof marks = [];
 
@@ -32,6 +50,7 @@ const meaning: typeof marks = [];
 // }
 
 // non premitive data type
+
 interface Student {
   name: string,
   age: number,
